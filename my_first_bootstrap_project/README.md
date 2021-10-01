@@ -1,3 +1,3 @@
-# My first bootstrap project
+# My First Bootstrap Project
 
-<img src="./images/my_first_bootrstap.png" alt="">
+<img src="images/my_first_bootstrap.png" alt="Main page"/>
