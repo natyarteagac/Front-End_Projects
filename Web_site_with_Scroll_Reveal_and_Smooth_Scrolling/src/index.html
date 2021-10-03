@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Website</title>
+  <!--Bootstrap 4-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="./css/main.css">
+  <!--Scroll Reveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;1,200;1,300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--NAVBAR NAVIGATION-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bootstrap Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#header">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info-one">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Header-->
+  <header id="header">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="header-content-left">
+            <img src="./img/image1.png" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class=header-content-right>
+            <h1 class="display-4">Lorem, ipsum dolor.</h1>
+            <p class="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt cupiditate animi corrupti
+              dolores,
+              reiciendis fugit aut excepturi dicta placeat illum itaque nemo rerum. Soluta, laudantium blanditiis.
+              Reprehenderit fuga delectus velit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, modi
+              quod nobis, dolore provident temporibus consequatur iusto rerum sint odit aliquid maiores nam iste aut
+              facilis totam. Beatae, at asperiores?</p>
+            <a href="#" class="btn btn-outline-secondary btn-lg mt-2 header-btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Testimonial-->
+  <section id="testimonial">
+    <div class="container">
+      <p class="h2 mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit veniam, enim, inventore
+        corrupti
+        earum
+        consequuntur autem rerum maxime adipisci sunt nihil asperiores excepturi quasi. Rerum magnam vel molestias
+        assumenda placeat!</p>
+      <p class="h4">- Daniel Guillem</p>
+    </div>
+  </section>
+
+  <!--Info one-->
+  <section id="info-one">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div class="info-left">
+            <img src="./img/image2.png" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-md-6 my-auto">
+          <div class="info-right">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque amet expedita non alias vel unde
+              nemo consequuntur, mollitia nam incidunt, quo, est tempora a omnis distinctio quam beatae illo. Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Ab suscipit optio illo, eos nam harum! Incidunt veniam
+              esse est, sit accusantium blanditiis quos animi facilis consequuntur a repudiandae ut voluptas.</p>
+            <a href="#" class="btn btn-outline-secondary mt-2 btn-lg">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Info two-->
+  <section id="info-two" style="background: #f1f1f1;">
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-6">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae perspiciatis voluptates excepturi
+            adipisci tenetur, vel dolorum nisi at repellat necessitatibus eum eius doloribus. Reiciendis ea autem
+            tempora non harum corporis?</p>
+        </div>
+        <div class="col-md-6">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae perspiciatis voluptates excepturi
+            adipisci
+            tenetur, vel dolorum nisi at repellat necessitatibus eum eius doloribus. Reiciendis ea autem tempora non
+            harum
+            corporis?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact-->
+  <footer id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <form class="card mt-4">
+            <div class="card-body">
+              <div class="form-group">
+                <input type="text" placeholder="Name" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <textarea rows="10" cols="30" placeholder="message" class="form-control"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-secondary btn-block">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Bootstrap 4 scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+  <!--Scripts JS-->
+  <script src="./javascript/main.js"></script>
+</body>
+
+</html>
