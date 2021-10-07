@@ -1,4 +1,4 @@
-# counter
+# Counter
 
 ### Negative Number
 <img src="img/screenshot_counter_zero.png" alt="zero" width="500" height="300">
