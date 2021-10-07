@@ -4,9 +4,8 @@
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 3.5%;
+    left: 5.0%;
     margin: -25px 0 0 -25px;
-    border-radius: 8px;
 }
 
 .container h2 {
@@ -16,7 +15,6 @@
     height: auto;
     padding: 10px;
     border-radius: 5px;
-
 }
 
 #btn {
