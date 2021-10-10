@@ -4,5 +4,5 @@
 <img src="./images/navbar_screenshot.png" height=400px; width=700px; align-items=center; alt="">
 
 ### Reduced screen
-<img src="./images/navbar_two_screenshot.png" height=400px; width=700px; align-items=center; alt="">
-<img src="./images/navbar_toggle.png" height=300px; width=400px; align-items=center; alt="">
+<img src="./images/navbar_two_screenshot.png" height=300px; width=200px; align-items=center; alt="">
+<img src="./images/navbar_toggle.png" height=300px; width=200px; align-items=center; alt="">
