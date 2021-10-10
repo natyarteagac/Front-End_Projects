@@ -5,4 +5,6 @@
 
 ### Reduced screen
 <img src="./images/navbar_two_screenshot.png" height=300px; width=300px; align-items=center; alt="">
+
+### Toggle
 <img src="./images/navbar_toggle.png" height=300px; width=300px; align-items=center; alt="">
