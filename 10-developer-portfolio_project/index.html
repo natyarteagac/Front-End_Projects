@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--CSS STYLES-->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!--Font awesome-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+    integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+    integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+
+  <!--GOOGLE FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <title>Natalia Arteaga | Dev Portfolio</title>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav>
+    <h1>NATALIA ARTEAGA</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burguer-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+
+  <!--HERO SECTION-->
+  <section class="hero" id=about>
+    <img src="./images/naty.jpg" alt="naty-arteaga" loading="lazy" class="hero-img">
+    <div class="bio animate__animated animate_shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        My name is Natalia Arteaga. <br> I am a Colombian Software Development Student and a Professional Musician. <br>
+        Passionate of nature, classical music, technology and pet lover.
+      </p>
+    </div>
+  </section>
+
+  <!--MORE ABOUT-->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>I was born and I am living in Medellin, Antioquia. <br>
+      I am a very calm and studious woman. I love to learn and improve my development skills all my days.<br>
+      Right now I am finishing the Foundations Program at Holberton School. I am capable to program in languages
+      like C and Python. I have knowledge in some Python's framework like Flask and creation of databases with MySQL but
+      my real love is the Front-End Development and I am focus improving my knowledge about Javascript, HTML, CSS and
+      frameworks like Bootstrap. <br>
+    </p>
+  </section>
+
+  <!--SKILLS SECTION-->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="./icons/javascript.png" alt="javascript" loading="lazy" class="icon icon-card">
+        <img src="./icons/html.png" alt="html" loading="lazy" class="icon icon-card">
+        <img src="./icons/css.png" alt="css" loading="lazy" class="icon icon-card">
+        <img src="./icons/bootstrap.png" alt="bottstrap" loading="lazy" class="icon icon-card">
+        <img src="./icons/git.png" alt="git" loading="lazy" class="icon icon-card">
+        <img src="./icons/bash.png" alt="bash" loading="lazy" class="icon icon-card">
+      </div>
+    </div>
+  </section>
+
+  <!--PROJECTS SECTION-->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some Holberton School Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="./images/binary_trees.png" alt="" loading="lazy" class="project-pic_one">
+        <h3 class="project-title">Binary Trees</h3>
+        <p class="project-details">
+          This project was developed in C language. <br>
+          We were working the different ways of traversal methods to go through the binary tree.
+        </p>
+        <a href="https://github.com/katgzco/AirBnB_clone_v3" target="_blank" class="project_link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="./images/airbnb_project.png" alt="" loading="lazy" class="project-pic_two">
+        <h3 class="project-title">Airbnb Clone</h3>
+        <p class="project-details">
+          This project was developed with Python in Back-End, Flask for deployment, HTML, CSS in Front-End and the
+          database was created with MySQL.<br>
+        </p>
+        <a href="https://github.com/JUANHercs/binary_trees" target="_blank" class="project_link">Check it Out</a>
+      </div>
+  </section>
+
+  <!--CONTACT SECTION-->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/myylvrzo" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your name" class="input-field" required>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required>
+          </div>
+          <div class="form-control">
+            <label for="Message">Enter Your Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--SOCIAL ACCOUNTS - FIXED TO THE RIGHT-->
+  <div class="socials">
+    <a href="https://twitter.com/natyartc" target="_blank">
+      <img src="https://img.icons8.com/bubbles/50/000000/twitter.png" class="socicon" loading="lazy">
+      <a href="https://www.linkedin.com/in/natalia-arteaga-corrales-a592351a7/" target="_blank">
+        <img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" class="socicon" loading="lazy">
+        <a href="https://www.instagram.com/natyartc/?hl=es" target="_blank">
+          <img src="https://img.icons8.com/bubbles/50/000000/instagram-new--v2.png" class="socicon" loading="lazy">
+          <a href="https://github.com/natyarteagac" target="_blank" class="socicon" loading="lazy">
+            <img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="github"></a>
+  </div>
+
+  <!--SCROLL TO TOP-->
+  <i class="scroll-up" id="scroll-up">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 172 172"
+      style=" fill:#000000;">
+      <g transform="translate(4.73,4.73) scale(0.945,0.945)">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt"
+          stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+          font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+          <g fill="#9b59b6" stroke="#9b59b6" stroke-width="10" stroke-linejoin="round">
+            <path
+              d="M150.5,80.625c0,22.67578 -10.87598,42.91602 -27.63085,55.63965c0,0.042 0,0.042 -0.042,0.042c0,0.04199 -0.04199,0.04199 -0.04199,0.08398c-0.25195,0.12598 -0.46192,0.29395 -0.67187,0.41993c-4.57715,3.35938 -9.49023,5.96289 -14.61328,8.10449v-11.67383c3.10743,-1.55371 6.04688,-3.35937 8.86035,-5.50097c14.23535,-10.792 23.38965,-27.84082 23.38965,-47.11524c0,-32.71192 -26.41308,-59.125 -59.125,-59.125c-32.71192,0 -59.125,26.41308 -59.125,59.125c0,19.82031 9.74219,37.28906 24.64942,48.03906c2.43554,1.72168 4.95507,3.2754 7.60058,4.61915v11.63183c-4.61914,-1.93165 -9.07031,-4.19922 -13.22754,-7.13868c-0.25195,-0.08398 -0.46191,-0.25195 -0.67187,-0.37793c-17.63672,-12.72364 -29.10058,-33.42578 -29.10058,-56.77344c0,-38.54882 31.32618,-69.875 69.875,-69.875c38.54883,0 69.875,31.32618 69.875,69.875zM107.5,75.25h-21.5v75.25h-10.75v-75.25h-21.5l26.875,-26.875z">
+            </path>
+          </g>
+          <path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+          <g fill="#9b59b6" stroke="none" stroke-width="1" stroke-linejoin="miter">
+            <path
+              d="M80.625,10.75c-38.54882,0 -69.875,31.32618 -69.875,69.875c0,23.34766 11.46386,44.0498 29.10058,56.77344c0.20997,0.12598 0.41993,0.29395 0.67187,0.37793c4.15723,2.93946 8.60841,5.20703 13.22754,7.13868v-11.63183c-2.64551,-1.34375 -5.16504,-2.89747 -7.60058,-4.61915c-14.90723,-10.75 -24.64942,-28.21875 -24.64942,-48.03906c0,-32.71192 26.41308,-59.125 59.125,-59.125c32.71192,0 59.125,26.41308 59.125,59.125c0,19.27442 -9.15429,36.32324 -23.38965,47.11524c-2.81348,2.14159 -5.75293,3.94726 -8.86035,5.50097v11.67383c5.12305,-2.1416 10.03614,-4.74511 14.61328,-8.10449c0.20996,-0.12598 0.41993,-0.29395 0.67187,-0.41993c0,-0.04199 0.04199,-0.04199 0.04199,-0.08398c0.042,0 0.042,0 0.042,-0.042c16.75487,-12.72362 27.63085,-32.96386 27.63085,-55.63965c0,-38.54882 -31.32617,-69.875 -69.875,-69.875zM80.625,48.375l-26.875,26.875h21.5v75.25h10.75v-75.25h21.5z">
+            </path>
+          </g>
+          <path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path>
+        </g>
+      </g>
+    </svg>
+  </i>
+
+  <!--FOOTER SECTION-->
+  <footer>
+    <p class="copy">&copy; Copyright 2021</p>
+    <p class="copy"> By:
+      <a href="https://twitter.com/natyartc">Natalia Arteaga (natyartc)</a>
+    </p>
+  </footer>
+
+  <!--JAVASCRIPT-->
+  <script src="js/app.js"></script>
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
